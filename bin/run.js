@@ -1,5 +1,6 @@
 'use strict';
 
+require('dotenv').config();
 const service = require('../server/service');
 const http = require('http');
 
